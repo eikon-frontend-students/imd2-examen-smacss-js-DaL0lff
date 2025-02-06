@@ -1,0 +1,82 @@
+.l-header {
+  display: flex;
+  height: 120px;
+  padding: 0px 52px 0px 53px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: var(--dark-blue, #005564);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.l-cardonions {
+  display: flex;
+  width: 416px;
+  height: 467px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--green, #a0d187);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.l-cardherby {
+  display: flex;
+  width: 416px;
+  height: 467px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--green, #a0d187);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.l-cardsmooth {
+  display: flex;
+  width: 416px;
+  height: 467px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--green, #a0d187);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.l-footer {
+  background: var(--light-blue, #c0d9d9);
+  margin-top: 60px;
+  padding: 40px;
+}
+
+.l-cardonions.is-active {
+  background: var(--red, #cf9697);
+  height: 587px;
+  .transparent {
+    opacity: 100%;
+  }
+}
+
+.l-cardsmooth.is-active {
+  background: var(--light-blue, #c0d9d9);
+  height: 587px;
+  .transparent {
+    opacity: 100%;
+  }
+}
+
+.l-cardherby.is-active {
+  height: 587px;
+  .transparent {
+    opacity: 100%;
+  }
+}
+
+.l-header.is-active {
+  background: var(--yellow, #fce757);
+  h1 {
+    color: var(--dark-blue, #005564);
+  }
+}
